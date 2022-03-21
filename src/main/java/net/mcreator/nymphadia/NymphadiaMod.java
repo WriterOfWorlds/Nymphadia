@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.nymphadia.init.NymphadiaModMobEffects;
+import net.mcreator.nymphadia.init.NymphadiaModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,6 +45,8 @@ public class NymphadiaMod {
 	public NymphadiaMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		NymphadiaModEntities.REGISTRY.register(bus);
 
 		NymphadiaModMobEffects.REGISTRY.register(bus);
 

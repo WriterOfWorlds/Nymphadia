@@ -1,3 +1,5 @@
 {
+  "entity.nymphadia.torch_block_entity": "Torch Block Entity",
+  "item.nymphadia.torch_block_entity_spawn_egg": "Torch Block Entity Spawn Egg",
   "effect.nymphadia.fresh_air": "Fresh Air"
 }
