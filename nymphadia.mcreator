@@ -227,6 +227,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "TestNymph",
+      "type": "livingentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_nymph"
     }
   ],
   "variable_elements": [],
@@ -234,7 +242,9 @@
   "language_map": {
     "en_us": {
       "entity.nymphadia.torch_block_entity": "Torch Block Entity",
+      "entity.nymphadia.test_nymph": "Test Nymph",
       "item.nymphadia.torch_block_entity_spawn_egg": "Torch Block Entity Spawn Egg",
+      "item.nymphadia.test_nymph_spawn_egg": "Test Nymph Spawn Egg",
       "effect.nymphadia.fresh_air": "Fresh Air"
     }
   },

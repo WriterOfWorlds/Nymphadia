@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.nymphadia.entity.TorchBlockEntityEntity;
+import net.mcreator.nymphadia.entity.TestNymphEntity;
 import net.mcreator.nymphadia.NymphadiaMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -25,6 +26,11 @@ public class NymphadiaModEntities {
 	public static final RegistryObject<EntityType<TorchBlockEntityEntity>> TORCH_BLOCK_ENTITY = register("torch_block_entity",
 			EntityType.Builder.<TorchBlockEntityEntity>of(TorchBlockEntityEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(TorchBlockEntityEntity::new).fireImmune().sized(0.4f, 0.7f));
+	public static final RegistryObject<EntityType<TestNymphEntity>> TEST_NYMPH = register("test_nymph",
+			EntityType.Builder.<TestNymphEntity>of(TestNymphEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TestNymphEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -34,11 +40,13 @@ public class NymphadiaModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			TorchBlockEntityEntity.init();
+			TestNymphEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(TORCH_BLOCK_ENTITY.get(), TorchBlockEntityEntity.createAttributes().build());
+		event.put(TEST_NYMPH.get(), TestNymphEntity.createAttributes().build());
 	}
 }
