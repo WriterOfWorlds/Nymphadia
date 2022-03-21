@@ -1,0 +1,7 @@
+Java Launcher: /home/frost/Downloads/MCreatorEAP20221b12711/jdk/bin/java
+Arguments: '--inJar, /home/frost/MCreatorWorkspaces/nymphadia/build/fg_cache/net/minecraftforge/forge/1.18.2-40.0.13/forge-1.18.2-40.0.13-injected.jar, --outJar, /home/frost/MCreatorWorkspaces/nymphadia/build/fg_cache/net/minecraftforge/forge/1.18.2-40.0.13_mapped_official_1.18.2/forge-1.18.2-40.0.13_mapped_official_1.18.2.jar, --logFile, accesstransform.log, --atFile, /home/frost/MCreatorWorkspaces/nymphadia/src/main/resources/META-INF/accesstransformer.cfg, --atFile, /home/frost/MCreatorWorkspaces/nymphadia/build/_atJar_4/parent_at.cfg'
+Classpath:
+ - /home/frost/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /home/frost/MCreatorWorkspaces/nymphadia/build/_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

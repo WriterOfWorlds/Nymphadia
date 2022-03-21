@@ -1,0 +1,41 @@
+{
+  "mod_elements": [
+    {
+      "name": "TestOcean",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_ocean"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "biome.nymphadia.test_ocean": "Deep Ocean"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nymphadia",
+    "modName": "Nymphadia",
+    "version": "1.0.0",
+    "author": "frost, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.nymphadia",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200112711
+}
