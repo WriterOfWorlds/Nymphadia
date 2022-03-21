@@ -1,0 +1,20 @@
+{
+  "_fv": 25,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Fresh Air",
+    "icon": "freshairdraft.png",
+    "color": {
+      "value": -2033673,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "TreeBuff"
+    }
+  }
+}

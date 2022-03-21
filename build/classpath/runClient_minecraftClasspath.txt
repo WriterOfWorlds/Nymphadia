@@ -1,4 +1,4 @@
-/home/frost/MCreatorWorkspaces/nymphadia/build/fg_cache/net/minecraftforge/forge/1.18.2-40.0.13_mapped_official_1.18.2/forge-1.18.2-40.0.13_mapped_official_1.18.2.jar
+/home/frost/Nymphadia/build/fg_cache/net/minecraftforge/forge/1.18.2-40.0.13_mapped_official_1.18.2/forge-1.18.2-40.0.13_mapped_official_1.18.2.jar
 /home/frost/.mcreator/gradle/caches/forge_gradle/minecraft_repo/versions/1.18.2/client-extra.jar
 /home/frost/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.18.2-40.0.13/77913ff29da3a0596e88376276a75ee32ce9b404/javafmllanguage-1.18.2-40.0.13.jar
 /home/frost/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.18.2-40.0.13/212609ac0302860199ab52897f2f8a41f8c35234/mclanguage-1.18.2-40.0.13.jar
